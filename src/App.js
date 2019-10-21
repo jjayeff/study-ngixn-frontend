@@ -8,7 +8,7 @@ export default function App() {
   
   useEffect(() => {
     async function fetchData() {
-      const response = await axios.get(`jjayeff/api`)
+      const response = await axios.get(`jjayeff.com/api`)
       setData(response.data)
     }
 
